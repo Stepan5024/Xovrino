@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Tour">
+
+    <FrameLayout
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="32dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:gravity="end">
+
+                        <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/grach"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/bg_rounded_solid_text"
+                            android:paddingTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal">
+
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/mainText1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:paddingTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:text="Отдых в парке"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="26sp" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="32dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:gravity="end">
+
+                        <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/velik"
+                            android:scaleType="fitXY" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/bg_rounded_solid_text"
+                            android:paddingTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal"/>
+                        <TextView
+                            android:id="@+id/mainText2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:paddingTop="10dp"
+                            android:text="Велосипедный маршрут"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="26sp" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="32dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:gravity="end">
+
+                        <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/xram"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/bg_rounded_solid_text"
+                            android:paddingTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal"/>
+
+                        <TextView
+                            android:id="@+id/mainText3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:paddingTop="10dp"
+                            android:text="Храмы Ховрино"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="26sp" />
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="32dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:gravity="end">
+
+                        <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/metro"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/bg_rounded_solid_text"
+                            android:paddingTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal"/>
+
+                        <TextView
+                            android:id="@+id/mainText4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:paddingTop="10dp"
+                            android:text="От метро до метро"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="26sp" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="32dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:gravity="end">
+
+                        <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/gofamile"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/bg_rounded_solid_text"
+                            android:paddingTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal"/>
+
+                        <TextView
+                            android:id="@+id/mainText6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:paddingTop="10dp"
+                            android:text="Всей семьей"
+                            android:layout_centerHorizontal="true"
+                            android:textAlignment="center"
+                            android:textColor="#FFF"
+                            android:textSize="26sp" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="32dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:gravity="end">
+
+                        <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                            android:id="@+id/imageView7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/inmetro"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/bg_rounded_solid_text"
+                            android:paddingTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal"/>
+
+                        <TextView
+                            android:id="@+id/mainText7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:paddingTop="10dp"
+                            android:text="По станциям метро"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="26sp" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="40dp"
+                    android:layout_weight="1"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="32dp">
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:gravity="end">
+
+                        <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/sport"
+                            android:scaleType="fitXY" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:background="@drawable/bg_rounded_solid_text"
+                            android:paddingTop="10dp"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal"/>
+
+                        <TextView
+                            android:id="@+id/mainText5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="55dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:paddingTop="10dp"
+                            android:text="Спорт на районе"
+                            android:textAlignment="center"
+                            android:textColor="@color/white"
+                            android:textSize="26sp" />
+                    </RelativeLayout>
+
+                </androidx.cardview.widget.CardView>
+
+            </LinearLayout>
+
+        </ScrollView>
+    </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.stepan.bokarev.pro_cao">
+
+  <uses-permission android:name="android.permission.INTERNET" />
+
+
+  <application
+
+      android:icon="@drawable/hovrino"
+      android:label="Xovrino"
+      android:roundIcon="@drawable/hovrino"
+      android:theme="@style/AppTheme"
+      tools:replace="android:appComponentFactory"
+      android:appComponentFactory="androidx"
+      tools:ignore="GoogleAppIndexingWarning"
+      tools:targetApi="p"
+      android:allowBackup="true">
+    <activity
+        android:name="com.stepan.bokarev.pro_cao.MainActivity"
+        android:label="PRO Ховрино"
+        android:theme="@style/AppTheme.NoActionBar" >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name="com.stepan.bokarev.pro_cao.SimpleScannerActivity"
+        android:label="PRO Ховрино"
+        android:theme="@style/AppTheme.NoActionBar" >
+    </activity>
+
+
+
+
+    <activity
+        android:name="com.stepan.bokarev.pro_cao.BaseScannerActivity"
+        android:label="PRO Ховрино"
+        android:theme="@style/AppTheme.NoActionBar" >
+    </activity>
+    <activity
+        android:name="com.stepan.bokarev.pro_cao.DetailActivity"
+        android:label="Картина вблизи"
+        android:theme="@style/AppTheme.NoActionBar" >
+    </activity>
+    <service
+        android:name="com.google.firebase.components.ComponentDiscoveryService"
+        android:exported="false" >
+      <meta-data
+          android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+          android:value="com.google.firebase.components.ComponentRegistrar" />
+      <meta-data
+          android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+          android:value="com.google.firebase.components.ComponentRegistrar" />
+    </service>
+
+    <receiver
+        android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+        android:enabled="true"
+        android:exported="false" >
+    </receiver>
+    <receiver
+        android:name="com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver"
+        android:enabled="true"
+        android:exported="true"
+        android:permission="android.permission.INSTALL_PACKAGES" >
+      <intent-filter>
+        <action android:name="com.android.vending.INSTALL_REFERRER" />
+      </intent-filter>
+    </receiver>
+
+    <service
+        android:name="com.google.android.gms.measurement.AppMeasurementService"
+        android:enabled="true"
+        android:exported="false" />
+    <service
+        android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+        android:enabled="true"
+        android:exported="false"
+        android:permission="android.permission.BIND_JOB_SERVICE" />
+
+    <receiver
+        android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+        android:exported="true"
+        android:permission="com.google.android.c2dm.permission.SEND" >
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+      </intent-filter>
+    </receiver>
+
+
+
+    <activity
+        android:name="com.google.android.gms.common.api.GoogleApiActivity"
+        android:exported="false"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+    <provider
+        android:name="com.google.firebase.provider.FirebaseInitProvider"
+        android:authorities="com.stepan.bokarev.pro_cao.firebaseinitprovider"
+        android:exported="false"
+        android:initOrder="100" />
+
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+
+
+  </application>
+
+</manifest>

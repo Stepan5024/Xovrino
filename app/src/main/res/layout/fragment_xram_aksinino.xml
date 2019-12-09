@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/aksinino" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView16"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="7dp"
+                android:text="Храм Знамения"
+                android:textAlignment="center"
+                android:textSize="27sp" />
+            <TextView
+                android:id="@+id/textwiew4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView16"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="37dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="7dp"
+                android:text="в Аксинино"
+                android:textAlignment="center"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cd1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:text="@string/on_map"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView8"
+                android:layout_centerHorizontal="true"
+                android:text="@string/koordinatAksinino"
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView9"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_white"
+                android:text="@string/back"
+                android:textColor="#000000" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textwiew4"
+                android:layout_margin="7dp"
+                android:elevation="@dimen/elevation"
+                tools:targetApi="lollipop">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/tv1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="20sp" />
+
+                    <ImageView
+                        android:id="@+id/imageView17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="220dp"
+                        app:srcCompat="@drawable/aksznam06" />
+
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/tv2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:textSize="20sp" />
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/tv12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Более подробно узнать нажми сюда"
+                        android:textSize="20sp"
+                        android:textStyle="italic" />
+                    <!--В селе существовала церковь. Сначала была деревянная, в ходе Отечественной войны 1812 года село было разграблено, церковь была сожжена. По заказу храмоздателей был выполнен проект, который строительное отделение одобрило в мае 1866 года. Но в то время строительство каменной церкви не состоялось, что объясняли нехваткой средств. Вместо предполагавшейся постройки в 1869 году капитально отремонтировали старый деревянный храм. В 1884 году был построен каменный храм. Церковь Знамения в Аксиньине возведена в русско-византийском стиле. В годы советской власти церковь не закрывалась. Более подробно по ссылке http://aksinino-hram.ru/?page_id=76
+               Недалеко от метро Речной вокзал находится церковь знамения Пречистый Богородицы в Аксинино. На этом месте находилась деревня Аксинино, о которой впервые упоминается в 1628 году. С 1952 года Г.Ф. Бутурлин устроил здесь свою подмосковную резиденцию. Затем село перешло в семью М.М. Голицына в качестве приданного А.И. Бутурлиной."-->
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_shape_2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/sc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:autoSizeTextType="uniform"
+                android:text="Маршрут Всей семьей"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:autoSizeTextType="uniform"
+                android:text="Парк Грачевка"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textVie4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:autoSizeTextType="uniform"
+                android:text="Кликните чтобы открыть карту"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_below="@+id/textView3"
+                android:layout_margin="10dp"
+                android:background="@drawable/grachpark"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/button"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card1"
+                android:layout_centerHorizontal="true"
+                android:text="Конец" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView15"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp">
+
+                <ScrollView
+                    android:id="@+id/sc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView15">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7dp"
+                            android:text="
+ Грачевский парк – одно из тех мест в Москве, где жители района Ховрино и его гости могут отдохнуть от городской суеты и подышать свежим воздухом.Современное название «Грачевка» получила благодаря своему последнему хозяину – купцу Митрофану Грачеву. Он выкупил имение в 1895 году, и за несколько лет изменил его до неузнаваемости. При нем был построен абсолютно новый дом, тот самый, который можно увидеть до сих пор. Когда-то в парке протекала небольшая речка Лихоборка, которую в советское время «убрали» в коллекторы, то есть под землю. Нахождение неподалёку реки Лихоборка и заболоченной местности являлось ключевым фактором остановки на долгие годы строительства Ховринской Заброшенной Больницы.  От реки остался только пруд, который  совсем недавно очистили от грязи и привели в нормальный вид. Купаться, конечно, в нем не рекомендуется, но никто не запрещает посидеть на берегу, покормить уток и просто насладится красотой водной глади.
+В Грачевском парке сразу несколько достопримечательностей. Во-первых, это старинная усадьба, в которой уже полвека располагается больница восстановительного лечения. Войти внутрь вряд ли разрешат, но можно полюбоваться ею и с улицы. Тем более что здание имеет очень необычную архитектуру с множеством балконов, башенок, с обилием скульптур и пышной лепнины на фасадах.
+Также в парке можно найти могилу героев-панфиловцев, которые героически погибли в боях с фашистами осенью 41-го года во время обороны Москвы.
+
+"
+                            android:textAlignment="center"
+
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

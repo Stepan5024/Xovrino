@@ -1,0 +1,92 @@
+<resources>
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+
+    <string name="app_name">CAO</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions"
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Clo se navigation drawer</string>
+    <string name="nav_header_title">Узнать все про Ховрино</string>
+    <string name="nav_header_subtitle">bokarevstepan1@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="access_token">pk.eyJ1Ijoic3RlcGFuNTAyNCIsImEiOiJjanFkc2R6cXY0OGptM3hvYjN4a3JnZmtiIn0.CnwlXeDFl8x0R0VVxVLQDw</string>
+    <string name="hello">Hello Android 7</string>
+    <string name="scanner_activity">ZXing Scanner - Full Activity</string>
+    <string name="scanner_fragment_activity">ZXing Scanner - Full Fragment Activity</string>
+    <string name="simple_scanner_activity">ZXing Scanner - Simple Activity</string>
+    <string name="custom_view_finder_scanner_activity">ZXing Scanner - Custom View Finder Activity</string>
+    <string name="scaling_scanner_activity">ZXing Scanner - Scaling Activity</string>
+    <string name="simple_scanner_fragment_activity">ZXing Scanner - Simple Fragment Activity</string>
+    <string name="full_screen_scanner_fragment_activity">ZXing Scanner - Full Screen Fragment Activity</string>
+    <string name="simple_activity_sample">Simple Activity Sample</string>
+    <string name="simple_fragment_sample">Simple Fragment Sample</string>
+    <string name="activity_sample">Full Activity Sample</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="full_screen_sample">Full Screen Fragment Sample</string>
+    <string name="custom_view_finder_sample">Custom View Finder Sample</string>
+    <string name="scaling_sample">Scaling Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="select_camera">Select a Camera</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+    <bool name="cameraPreviewShouldFillView">true</bool>
+    <string name="sch_xovrino">Школы района</string>
+    <string name="on_map">На карте:</string>
+    <string name="Xovrino">район Ховрино</string>
+    <string name="back">назад</string>
+    <string name="Go">Дальше</string>
+    <string name="sch1474">Школьный городок 1474</string>
+    <string name="wait">Подождите, идет загрузка</string>
+    <string name="XramAksinino">Храм Знамения в Аксинино</string>
+    <string name="koordinatAksinino">район Левобережный, улица Фестивальная, д. 6, 125565</string>
+    <string name="CHSKA">Конно-спортивная база ЦСКА</string>
+    <string name="koordinatsCHSKA">район Ховрино, улица Дыбенко, д. 5, 125475</string>
+    <string name="XovrinoXram">Храм иконы Божьей Матери Знамения в Ховрино"</string>
+    <string name="koordinatsXramXovrino">район Ховрино, улица Клинская, д. 77А, 125414</string>
+    <string name="streetLav">Улица Лавочкина</string>
+    <string name="koordinatLav">район Ховрино, улица Лавочкина</string>
+    <string name="ParkXovrino">Народный парк Ховрино</string>
+    <string name="koordinatsParkXovrino">район Ховрино, улица Фестивальная, д. 8</string>
+    <string name="Dinamo">Дворец спорта Динамо</string>
+    <string name="koordinatsDinamo">район Ховрино, улица Лавочкина, д. 32, 125581</string>
+    <string name="FestivalStreet">Фестивальная улица</string>
+    <string name="GrachPark">Грачевский парк</string>
+    <string name="Lebed">ЖК Лебедь</string>
+    <string name="GoMetro">Маршрут По станциям метро</string>
+    <string name="small">Обо всём чуть-чуть</string>
+    <string name="ViewOnMap">Кликните чтобы открыть карту</string>
+
+   <!-- <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>
+    <string name=""></string>-->
+
+
+
+</resources>

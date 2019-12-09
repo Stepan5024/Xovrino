@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "53918145616",
+    "firebase_url": "https://procao.firebaseio.com",
+    "project_id": "procao",
+    "storage_bucket": "procao.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:53918145616:android:29848cd4274cbdbc",
+        "android_client_info": {
+          "package_name": "com.stepan.bokarev.pro_cao"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "53918145616-nbj7t3utmtkko1v4mg8jaukkquamkm01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stepan.bokarev.pro_cao",
+            "certificate_hash": "82f3cc54070b94d4adafbfe4f2b426da8d2ac606"
+          }
+        },
+        {
+          "client_id": "53918145616-g060vh5flu6clglhfkvn8j5sr606btrn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0GUZw6ZtNkieOaS3P7XfQiGVDBUzfmlA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "53918145616-g060vh5flu6clglhfkvn8j5sr606btrn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

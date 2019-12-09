@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_shape_1"
+    android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:autoSizeTextType="uniform"
+                android:text="Маршрут Храмы Ховрино"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:autoSizeTextType="uniform"
+                android:text="Храм Знамения в Ховрино"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_below="@id/textView3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:elevation="10dp"
+                app:cardCornerRadius="32dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:gravity="end">
+
+                    <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                        android:id="@+id/imageVie"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/xram"
+                        android:scaleType="fitXY" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+            <TextView
+                android:id="@+id/textVie4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/relat"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:autoSizeTextType="uniform"
+                android:text="Кликните чтобы открыть карту"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cd1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:elevation="10dp"
+                android:layout_below="@id/textView3"
+                app:cardCornerRadius="32dp">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:gravity="end">
+
+                    <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                        android:id="@+id/imageView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/xram"
+                        android:scaleType="fitXY" />
+
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <LinearLayout
+                android:id="@+id/relat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_below="@+id/card1"
+                android:layout_centerHorizontal="true">
+
+                <Button
+                    android:id="@+id/button_return"
+                    style="@style/button_mono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="Назад" />
+
+                <Button
+                    android:id="@+id/button"
+                    style="@style/button_mono"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:text="Дальше" />
+            </LinearLayout>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cd2"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp">
+
+                <ScrollView
+                    android:id="@+id/sc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView15">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7dp"
+                            android:text="По письменным источникам Ховрино известно
+                             с 1585 года, однако достоверно неизвестно была ли в селении церковь.
+                              Первое упоминание храма в селе Ховрино относится к 1623—1624 году, в документах
+                              Ховрино значится как «место церковное», предполагается, что в Смутное время в селе был уничтожен храм Великомученика Георгия.
+
+Церковь была восстановлена только к 1646 году, а в 1682 в селе возводят вторую трехпридельную церковь во имя иконы Божией Матери «Знамение». После смерти Лефорта в 1699 году, Пётр I приближает к себе своего сподвижника Ф. А. Головина, награждает его орденом святого Андрея Первозванного и возводит в чины генерал-фельдмаршала и генерал-адмирала. В числе прочих наград к Головину отходит и поместье в селе Ховрино, которое после его смерти наследует его сын Николай, по приказу которого в 1740 году старую Знаменскую церковь сносят,
+ а на её месте закладывают новую каменную, строительство которой заканчивается к 1741 году.
+  В 1937 году, после расстрела служивших в Знаменском храме с 1932 года, свщенника о. Николая и архимандрита Амвросия, службы стали нерегулярными и в 1939 году храм закрыли окончательно. В 1941 году в здание храм разместили госпиталь, после войны храм долго пустовал, а в 1960 году его отдали артели слепых, разместив в нем производственные помещения. В 1980 году в здании храма разместили гараж Рыбстоймонтажа СССР. С 1972 имение Ховрино была поставлена на государственную охрану, в том числе и Знаменский храм и в ней с 1979 года велась реставрация, которая только ухудшила состояние имения.
+
+Храм был передан Русской Православной Церкви в 1991 году, к 1994 году начал действовать полностью обновленный нижний храм во имя Николая Чудотворца, верхний Знаменский храм начал действовать в 1997 году.
+
+
+ Святыни
+Икона Божией Матери «Скоропослушница» из Афонского Свято-Пантелеимонова монастыря, подарена нашему храму в 1996 году. Праздник иконы — 9/22 ноября.
+Икона Божией Матери «Знамение» — дар прихожанина, пожелавшего остаться неизвестным. Передана храму благочинным Северного округа о. Серафимом 10 декабря 1991 года, в день престольного праздника и первого богослужения в возрождаемом храме.
+Казанская икона Божией Матери находится в нижнем Никольском храме. Празднование ей совершается 8 / 21 июля и 22 октября / 4 ноября.
+Ковчег с частицами святых мощей угодников Божиих доступен для поклонения верующих во время богослужений в верхнем храме.
+Резное Распятие при входе в нижний храм во имя Святителя Николая — одна из первых святынь возрожденного Ховринского прихода.
+Икона святых славных Первоверховных апостолов Петра и Павла. День памяти 12 июля.
+Икона святого праведного Алексия Южинского
+"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+</LinearLayout>

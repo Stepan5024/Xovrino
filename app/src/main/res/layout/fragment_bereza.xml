@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView16"
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                app:srcCompat="@drawable/aksinino" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView16"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                android:layout_marginBottom="7dp"
+                android:text="Храм Знамения в Аксинино"
+                android:layout_centerHorizontal="true"
+                android:textAlignment="center"
+                android:textSize="27sp" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cd1"
+                android:layout_marginTop="20dp"
+                android:textStyle="italic"
+                android:textAlignment="center"
+                android:text="На карте" />
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView8"
+                android:textAlignment="center"
+                android:textStyle="italic"
+                android:text="район Левоберезный, улица Фестивальная, д. 6, 125565" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:background="@drawable/button_white"
+                android:layout_below="@+id/textView9"
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:text="назад" />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView4"
+                android:layout_margin="7dp"
+                android:id="@+id/cd1"
+                android:elevation="40dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:text="Церковь, которую можно увидеть, пройдя пешком от метро Речной  Вокзал по улице Фестивальной относилась к приходу села Аксиньено .
+Как можно прочесть в Википедии, деревня впервые упоминается в 1623 г. как владение Василия Петровича Ахамушукова-Черкасского. В ней был двор помещика, 3 крестьянских двора. В 1640 г. в деревне насчитывалось уже 13 дворов.
+В 1652 г. Григорий Федорович Бутурлин купил деревню у прежнего владельца, именно здесь он устроил свою подмосковную резиденцию. Усадьба была устроена на противоположном берегу от деревни, была посажена ореховая роща.
+После смерти Григория Бутурлина Аксиньиным стал владеть его брат Иван Федорович Бутурлин, который служил воеводой в Нижнем Новгороде, Путивле, Астрахани. В 1692 г. его вдова отдала Аксиньино в качестве приданого за свою дочь Авдотью Ивановну, которая вышла замуж за Михаила Михайловича Голицына. Он был выдающимся военным и одним из близких соратников Петра I. М. М. Голицын принимал участие в Северной войне, где проявил себя при штурме Шлиссельбурга, а также победил шведов при селе Добром и при деревне Лесной в 1708 году.
+В 1704 г. в селе Аксиньино числилось 17 крестьянских дворов, скотный двор, двор вотчинника. В 1708 г. была построена деревянная церковь Знамения Пресвятой Богородицы, которую освятили после возвращения Михаила Голицына из похода .
+В 1730 г. имение досталось по наследству Петру Михайловичу Голицыну, однако, он долгое время не мог управлять хозяйством. В 1750 г. Петр вместе со своей сестрой Натальей Михайловной Голицыной разделили село пополам. Еще при жизни Петр заложил свою долю села Авдотье Львовне Толстой, которая вступила в права владения после его смерти.
+Во время войны 1812 г. село было разграблено.
+После отмены крепостного права в 1861 г. хозяин имения Алексей Петрович Толстой оставил за собой восточную часть села за прудом и речкой Норишкой, остальное было отдано крестьянам. При селе было открыто начальное училище, в котором в середине 1870-х гг. преподавала А. И. Милюкова, будущая жена П. И. Чайковского
+В 1884 г. на месте старой сгоревшей церкви была построена новая церковь Знамения, которая стала усыпальницей брата одного из новых владельцев имения — Петра Григорьевича Молошникова, которому принадлежала бумагопрядильная фабрика в Балашихе.
+В 1927 г. в селе насчитывалось 54 двора, в которых проживало 345 человек. Церковь, в которую перенесли образ Казанской Божьей матери из соседнего Казанского Головинского монастыря, была открыта все годы советской власти.
+В 1960 г. Аксиньино вошло в состав Москвы и стало районом массовой жилой застройки. О селе напоминают краснокирпичное здание церкви Знамения и остатки старинного пруда.
+" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_shape_2"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/sc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:autoSizeTextType="uniform"
+                android:text="Маршрут Храмы Ховрино"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView5"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:autoSizeTextType="uniform"
+                android:text="Храм 12 апостолов"
+                android:textAlignment="center"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+
+            <TextView
+                android:id="@+id/textVie4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="10dp"
+                android:autoSizeTextType="uniform"
+                android:text="Кликните чтобы открыть карту"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="italic" />
+
+            <com.stepan.bokarev.pro_cao.RoundedCornerImageView
+                android:id="@+id/imageView15"
+                android:layout_width="wrap_content"
+                android:layout_height="300dp"
+                android:layout_below="@+id/textView3"
+                android:layout_margin="10dp"
+                android:background="@drawable/xram12"
+                android:scaleType="fitXY" />
+
+            <Button
+                android:id="@+id/button"
+                style="@style/button"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/card1"
+                android:layout_centerHorizontal="true"
+                android:text="Конец" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView15"
+                android:layout_margin="20dp"
+                app:cardCornerRadius="20dp">
+
+                <ScrollView
+                    android:id="@+id/sc1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imageView15">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <me.biubiubiu.justifytext.library.JustifyTextView
+                            android:id="@+id/textView6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="7dp"
+                            android:text="История возведения
+
+Весной 2015 года в столице России недалеко от 12 дома на Клинской улице была собрана группа верующих, которые провели собрание по вопросу строительства храма двенадцати апостолов Ховрино. До этого собрания здесь стоял временный храм из дерева, и только после этого собрания начались строительные работы по строительству молитвенного дома из древесины ручной рубки.
+В марте этого ж года был заложен первый камень и совершился чин освящения.  Ночью 12 апреля прошло первое богослужение. В этот день как раз был праздник Пасхи. И к этому событию собралось много людей. Несмотря на то, что помещение церкви не большое (оно может вместить в себя не больше 250 человек) его посещает намного больше прихожан. Это и не удивительно ведь в храме находится большое количество святых ликов.
+Архитектурный план строительства складывался с учетом компактности участка. Здание объединяется вместе с приходским домом и колокольней. Всего храм имеет два этажа. С левой стороны от храма располагается иконная лавка. Расписание богослужений храма в Ховрино и адрес
+В церкви находится большое количество святых образов, к которым приходят верующие и возносят молитвенные прошения. Также здесь можно заказать именные молебны и панихиды. Богослужения проводятся:
+     По будним дням с понедельника по пятницу божественные Литургии проводятся в 7:00 утра и 17:00 вечера.
+     По выходным и праздничным дням в 7:00 и 10:00 утра и 18:00 вечера.
+Также каждую субботу после проведения богослужения читается акафист перед ликом Богоматери «Неупиваемая Чаша».  По пятницам и воскресеньям проходят водосвятные молебны."
+                            android:textAlignment="center"
+
+                            android:textSize="20sp" />
+                    </LinearLayout>
+                </ScrollView>
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
